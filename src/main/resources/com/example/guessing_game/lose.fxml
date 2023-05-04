@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guessing_game.HelloController">
+    <children>
+        <Label fx:id="winLoseLabel" alignment="CENTER" layoutX="40.0" layoutY="150.0" prefHeight="71.0" prefWidth="519.0" text="You Lost!!!">
+            <font>
+                <Font size="32.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
